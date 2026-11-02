@@ -1,9 +1,7 @@
-import aprovacao.Aluno;
-
 public class Main {
     public static void main(String[] args) {
-        Aluno aluno = new Aluno();
-        aluno.setFrequencia(10);
-        System.out.println("Frequência: " + aluno.getFrequencia());
+        Cliente cliente = new Cliente();
+        cliente.comprarNoPix(100.0f);
+        System.out.println(cliente.getStatusCompras());
     }
 }
